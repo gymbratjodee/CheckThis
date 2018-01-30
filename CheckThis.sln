@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckThis", "CheckThis\CheckThis.csproj", "{AC4D8453-F065-486F-91CE-5E8AD29BEF68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckThisData", "CheckThis\CheckThisData.csproj", "{AC4D8453-F065-486F-91CE-5E8AD29BEF68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{D882FF42-AEFD-4644-BBDE-F837A7617487}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckThisTests", "Tests\CheckThisTests.csproj", "{D882FF42-AEFD-4644-BBDE-F837A7617487}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CheckThisWeb", "CheckThisWeb\CheckThisWeb.xproj", "{F06ACBC8-03E1-4EEB-9BBD-6FF817BFF77B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D882FF42-AEFD-4644-BBDE-F837A7617487}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D882FF42-AEFD-4644-BBDE-F837A7617487}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D882FF42-AEFD-4644-BBDE-F837A7617487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06ACBC8-03E1-4EEB-9BBD-6FF817BFF77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06ACBC8-03E1-4EEB-9BBD-6FF817BFF77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06ACBC8-03E1-4EEB-9BBD-6FF817BFF77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06ACBC8-03E1-4EEB-9BBD-6FF817BFF77B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

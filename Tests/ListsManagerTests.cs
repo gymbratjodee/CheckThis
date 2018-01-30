@@ -1,18 +1,16 @@
-﻿using System;
+﻿using CheckThisData.Managers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MongoDB.Driver;
-using Lists;
 
-namespace Tests
+namespace CheckThisTests
 {
     [TestClass]
     public class ListsManagerTests
     {
-        private ListsManager _listsManager;
+        private CheckThisListsManager _listsManager;
 
         public ListsManagerTests()
         {
-            _listsManager = new ListsManager();
+            _listsManager = new CheckThisListsManager();
         }
 
         [TestMethod]
